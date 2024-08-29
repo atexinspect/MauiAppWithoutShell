@@ -3,10 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppWithoutShell.Page1"
              Title="Page1">
+
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to Page1"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label Text="Welcome to Page 1" VerticalOptions="Center" HorizontalOptions="Center" />
     </VerticalStackLayout>
+
+    <!--<ContentPage Title="Page 1 Tab 1">
+        <VerticalStackLayout>
+            <Label Text="Welcome to Page 1 Tab 1" VerticalOptions="Center" HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Page 1 Tab 2">
+        <VerticalStackLayout>
+            <Label Text="Welcome to Page 1 Tab 2" VerticalOptions="Center" HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ContentPage>-->
+
 </ContentPage>
